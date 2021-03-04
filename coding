@@ -1,8 +1,7 @@
 def revrev(to_rev):
+  #to_rev=str(to_rev)
   if len(to_rev)==0:
       return "Please enter valid string"
-  elif len(to_rev)==1:
-      return to_rev
   else:
        original=to_rev.split()
        string_join=""

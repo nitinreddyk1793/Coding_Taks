@@ -1,5 +1,4 @@
-def revrev(to_rev):
-  #to_rev=str(to_rev)
+def revrev(to_rev): 
   if len(to_rev)==0:
       return "Please enter valid string"
   else:

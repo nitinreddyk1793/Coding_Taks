@@ -1,6 +1,6 @@
 def revrev(to_rev):
   if len(to_rev)==0:
-      return "Please enter the value wit length more then 2"
+      return "Please enter valid string"
   elif len(to_rev)==1:
       return to_rev
   else:
